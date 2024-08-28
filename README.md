@@ -17,4 +17,3 @@ A aplicação utiliza as seguintes regras para criptografar o texto:
 
 - **Criptografar Texto**: Converte texto em letras minúsculas para a versão criptografada usando as regras acima.
 - **Descriptografar Texto**: Converte texto criptografado de volta para a versão original.
-- **Regras Visíveis**: As regras de uso do texto são exibidas na página.
