@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto da xl!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Decodificador de texto da xl!</h1>
+        <div class="rules">
+            <p><strong>As seguintes regras devem ser seguidas:</strong></p>
+            <ul>
+                <li>O texto deve ser inserido em letras minúsculas.</li>
+                <li>Não deve haver letras com acentos nem caracteres especiais.</li>
+            </ul>
+        </div>
+        <textarea id="inputText" placeholder="Digite o texto aqui..."></textarea>
+        <div>
+            <button onclick="encrypt()">Criptografar</button>
+            <button onclick="decrypt()">Descriptografar</button>
+        </div>
+        <div class="result" id="result"></div>
+    </div>
+    <footer>
+        Desenvolvido por Gisele Freitas para o challenge do projeto Oracle One.
+    </footer>
+    <script src="funcoes.js"></script>
+</body>
+</html>
